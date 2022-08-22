@@ -35,7 +35,7 @@ document.addEventListener('alpine:init', () => {
                     });
             },
             pizzaImage(pizza) {
-                return `/img/${pizza.size}.png.jpeg`
+                return `/img/${pizza.size}.png`
             },
             message: 'Eating pizzas',
             username: '',
